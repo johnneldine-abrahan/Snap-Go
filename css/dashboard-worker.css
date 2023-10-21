@@ -51,7 +51,7 @@ body {
     height: 50px;
     width: 100%;
     list-style: none;
-    margin: 0 5px;
+    margin: 0 5px 5px;
     border-radius: 12px;
 }
 
@@ -67,7 +67,7 @@ body {
     background: #fff;
     padding-left: 50px;
     font-size: 18px;
-    color: #2598BD;
+    color: #000;
 }
 
 .side-nav ul li .fa-magnifying-glass{
