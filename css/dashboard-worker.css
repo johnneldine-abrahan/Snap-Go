@@ -14,7 +14,7 @@ body {
     overflow: hidden;
 }
 
-.side-nav {
+.side-nav { /* Entire nav bar */
     width: 240px;
     height: 100%;
     background: #2598BD;
@@ -37,7 +37,7 @@ body {
     margin-right: 5px;
 }
 
-.logo-content img{
+.logo-content img{ /* for logo */
     margin-right: 5px;
     width: 50px;
     height: 50px;
@@ -46,7 +46,7 @@ body {
 }
 
 .logo-content .logo .logo_name {
-    font-size: 20px;
+    font-size: 20px; /* Font Size of Snap&Go beside the logo */
     font-weight: 400;
 }
 
@@ -102,7 +102,7 @@ body {
     font-size: 22px;
 }
 
-.side-nav ul li a {
+.side-nav ul li a { /* Navigation Links */
     color: #fff;
     display: flex;
     align-items: center;
@@ -111,7 +111,7 @@ body {
     border-radius: 12px;
 }
 
-.side-nav ul li a:hover {
+.side-nav ul li a:hover { /* Nav Bar hover */
     color: #000;
     background: #1CFEBA;
 }
@@ -122,4 +122,8 @@ body {
     border-radius: 12px;
     line-height: 50px;
     text-align: center;
+}
+
+#small{ /* for 'Add Medicines & Equipment font */
+    font-size: 15px;
 }
