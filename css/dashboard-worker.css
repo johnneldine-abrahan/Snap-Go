@@ -127,3 +127,56 @@ body {
 #small{ /* for 'Add Medicines & Equipment font */
     font-size: 15px;
 }
+
+.side-nav .profile-content{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.side-nav .profile-content .profile{
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    background: #1CFEBA;
+}
+
+.profile-content .profile .profile-details{
+    display: flex;
+    align-items: center;
+}
+
+.profile .profile-details img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+    padding-bottom: 4px;
+}
+
+.profile .profile-details .name_job{
+    margin-left: 10px;
+}
+
+.profile .profile-details .name{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile .profile-details .job{
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+.profile #log_out{
+    position: absolute;
+    left: 88%;
+    bottom: 5px;
+    min-width: 20sspx;
+    transform: translateX(-50%);
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+}
