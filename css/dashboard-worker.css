@@ -80,7 +80,7 @@ body {
     border-radius: 12px;
 }
 
-.side-nav ul li input{
+.side-nav ul li input{ /* Search bar */
     position: absolute;
     height: 100%;
     width: 100%;
@@ -114,6 +114,7 @@ body {
 .side-nav ul li a:hover { /* Nav Bar hover */
     color: #000;
     background: #1CFEBA;
+    /* box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4); */
 }
 
 .side-nav ul li i {
