@@ -12,12 +12,14 @@ body {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+    background: #D0FFF1;
 }
 
 .side-nav { /* Entire nav bar */
     width: 240px;
     height: 100%;
-    background: #2598BD;
+    background: #2E2E2E;
+    /* background: #2598BD; */
     position: fixed;
     top: 0;
     left: 0;
@@ -46,7 +48,7 @@ body {
 }
 
 .logo-content .logo .logo_name {
-    font-size: 20px; /* Font Size of Snap&Go beside the logo */
+    font-size: 21px; /* Font Size of Snap&Go beside the logo */
     font-weight: 400;
 }
 
@@ -141,6 +143,7 @@ body {
     position: relative;
     padding: 10px 6px;
     height: 60px;
+    /* background: #2598BD; */
     background: #1CFEBA;
 }
 
