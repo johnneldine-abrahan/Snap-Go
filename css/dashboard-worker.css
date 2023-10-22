@@ -32,14 +32,39 @@ body {
     align-items: center;
 }
 
-.logo .logo-content i {
+.logo-content .logo i{
     font-size: 28px;
     margin-right: 5px;
 }
 
-.logo_content .logo .logo_name {
+.logo-content img{
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    position: fixed;
+}
+
+.logo-content .logo .logo_name {
     font-size: 20px;
     font-weight: 400;
+}
+
+.logo_name {
+    padding-left: 50px;
+}
+
+.side-nav #bttn{
+    position: absolute;
+    color: #fff;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
 }
 
 .side-nav ul {
@@ -87,8 +112,8 @@ body {
 }
 
 .side-nav ul li a:hover {
-    color: #2598BD;
-    background: #fff;
+    color: #000;
+    background: #1CFEBA;
 }
 
 .side-nav ul li i {
