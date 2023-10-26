@@ -218,7 +218,7 @@ body {
     width: 100%;
     margin: 9px;
 }
-
+/* dashboard */
 .count-grid {
     display: grid;
     grid-template-columns: 350px 350px 350px;
