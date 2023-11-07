@@ -534,7 +534,7 @@ main .recent-orders a{
     }
 
     main .analyse{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 1.6rem;
     }
 
