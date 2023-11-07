@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <!-- Sidebar Section -->
         <aside>
@@ -64,83 +63,29 @@
             </div>
         </aside>
         <!-- End of Sidebar Section -->
-
+        
         <!-- Main Content -->
         <main>
             <div class="top-nav">
                 <div class="title">
-                    <h1>Dashboard</h1>
+                    <h1>Register</h1>
                 </div>
             </div>
-            <div class="analyse">
-                <div class="sales">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Total Citizen</h3>
-                            <h1>100</h1>
-                        </div>
-                        <div class="progresss">
-                            <i class="las la-user"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="visits">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Total Worker</h3>
-                            <h1>12</h1>
-                        </div>
-                        <div class="progresss">
-                            <i class="las la-user-nurse"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="searches">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Medicines Available</h3>
-                            <h1>500</h1>
-                        </div>
-                        <div class="progresss">
-                            <i class="las la-capsules"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="searches">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Available Equipments</h3>
-                            <h1>50</h1>
-                        </div>
-                        <div class="progresss">
-                            <i class="las la-syringe"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Analyses -->
 
-            <!-- New Users Section -->
-
-            <!-- Recent Orders Table -->
-            <div class="recent-orders">
-                <h2>Recent Orders</h2>
+            <div class="mng-user">
                 <table>
                     <thead>
                         <tr>
-                            <th>Course Name</th>
-                            <th>Course Number</th>
-                            <th>Payment</th>
-                            <th>Status</th>
-                            <th></th>
+                            <th>#</th>
+                            <th>Product Info</th>
+                            <th>Type</th>
+                            <th>Price</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
-                </table>
-                <a href="admin_users.html">Show All</a>
+            </table>
             </div>
-            <!-- End of Recent Orders -->
-
         </main>
         <!-- End of Main Content -->
 
@@ -170,70 +115,38 @@
                         <img src="./assets/images/admin-dashboard/profile-1.jpg">
                     </div>
                 </div>
-
             </div>
-            <!-- End of Nav -->
-
-            <div class="reminders">
-                <div class="header">
-                    <h2>Reminders</h2>
-                    <span class="material-icons-sharp">
-                        notifications_none
-                    </span>
+            <div class="cont">
+                <div>
+                    <table>
+                        <tr>
+                            <thead>
+                                <th><i class="las la-capsules"></i>Expired Medicine</th>
+                            </thead>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>No Available Data</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-
-                <div class="notification">
-                    <div class="icon">
-                        <span class="material-icons-sharp">
-                            volume_up
-                        </span>
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <h3>Workshop</h3>
-                            <small class="text_muted">
-                                08:00 AM - 12:00 PM
-                            </small>
-                        </div>
-                        <span class="material-icons-sharp">
-                            more_vert
-                        </span>
-                    </div>
+                <div>
+                    <table>
+                        <tr>
+                            <thead>
+                                <th><i class="las la-ban"></i>No Stocks</th>
+                            </thead>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>No Available Data</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-
-                <div class="notification deactive">
-                    <div class="icon">
-                        <span class="material-icons-sharp">
-                            edit
-                        </span>
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <h3>Workshop</h3>
-                            <small class="text_muted">
-                                08:00 AM - 12:00 PM
-                            </small>
-                        </div>
-                        <span class="material-icons-sharp">
-                            more_vert
-                        </span>
-                    </div>
-                </div>
-
-                <div class="notification add-reminder">
-                    <div>
-                        <span class="material-icons-sharp">
-                            add
-                        </span>
-                        <h3>Add Reminder</h3>
-                    </div>
-                </div>
-
             </div>
-
         </div>
-
-
     </div>
 
     <script src="./assets/js/orders.js"></script>
