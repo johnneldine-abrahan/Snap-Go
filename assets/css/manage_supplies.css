@@ -426,7 +426,7 @@ main .mng-user table:hover {
     text-align: center;
     width: 95%;
     height: 300px;
-    margin: 30px;   
+    margin: 20px;   
     padding: var(--padding-1);
     border-radius: var(--border-radius-2);
     box-shadow: var(--box-shadow);
